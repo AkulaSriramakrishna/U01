@@ -1,0 +1,29 @@
+Algoritham For Linear Search
+step1:start
+step2:Read array
+step3:declare i,j ;
+step4:for(i=0;i<array Length;i++)
+        {  
+            for(j=0;j<array Length -1;j++)
+            {
+                if(array[0]; > array[j])
+                {
+                    temp = array[j]
+                    array[j] = num
+                    num = temp
+                }
+            }
+        }
+step5:print array
+step6:End;
+
+pseudocode for Linear Search
+
+step1:start
+step2:Read array;
+step3:itterate forloop name loop1 till length of array
+step4:itterate forloop name loop2 till length of array -1 under loop1
+step5:check if array[loop1] > array[loop2] then swap values
+step6:end.
+
+

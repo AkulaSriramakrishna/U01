@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int Num,Count;
+    printf("Enter The NUmber:\n");
+    scanf("%d",&Num);
+    Count = 0;
+    if(Num%2 == 0)
+    {
+        Count++;
+    }
+    if(Count>2)
+    {
+        printf("\n Not a Prime Number");
+    }
+    else
+    {
+        printf("\n It is a Prime Number");
+    }
+
+}
